@@ -23,7 +23,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-// Git learning
+// Anything
 public class TestNgClass1 extends Browser{
 	WebDriver driver;
 
