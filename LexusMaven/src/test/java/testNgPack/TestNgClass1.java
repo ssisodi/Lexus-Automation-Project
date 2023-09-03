@@ -21,8 +21,9 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
+// Git learning
 public class TestNgClass1 extends Browser{
 	WebDriver driver;
 
@@ -33,7 +34,7 @@ public class TestNgClass1 extends Browser{
 	}
 	
 	@Parameters("browser")
-	@BeforeTest
+	@BeforeTest 
 	public void openBrowser(String browserName)
 	{
 	

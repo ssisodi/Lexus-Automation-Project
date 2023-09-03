@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LexusHomePage {
-	WebDriver driver;
-	Actions act; 
+	private WebDriver driver;
+	private Actions act; 
 	
 	@FindBy(xpath = "//button[contains(text(),'VEHICLES')]")
 	private WebElement vehicles; 
